@@ -6,7 +6,7 @@
 }
 
 body {
-  background: hsl(218deg, 23%, 16%);
+  background: hsl(218, 23%, 16%);
   font-family: "Manrope", sans-serif;
   text-align: center;
 }
@@ -19,21 +19,21 @@ body .container {
   height: -moz-max-content;
   height: max-content;
   margin-top: 25vh;
-  background: hsl(217deg, 19%, 24%);
+  background: hsl(217, 19%, 24%);
   margin-left: auto;
   margin-right: auto;
   padding: 2rem 2rem 3.5rem;
   border-radius: 12px;
 }
 body .container .advice {
-  color: hsl(150deg, 100%, 66%);
+  color: hsl(150, 100%, 66%);
   margin-bottom: 1rem;
   font-size: 12px;
   letter-spacing: 3px;
 }
 body .container .quote {
   font-size: 18px;
-  color: hsl(193deg, 38%, 86%);
+  color: hsl(193, 38%, 86%);
   margin-bottom: 1rem;
 }
 body .container .dice {
@@ -41,7 +41,7 @@ body .container .dice {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: hsl(150deg, 100%, 66%);
+  background: hsl(150, 100%, 66%);
   width: 4em;
   height: 4em;
   border-radius: 50%;
@@ -49,8 +49,9 @@ body .container .dice {
   transition: all 250ms;
 }
 body .container .dice:hover {
-  box-shadow: 0 0 20px hsl(150deg, 100%, 70%);
+  box-shadow: 0 0 20px hsl(150, 100%, 70%);
   cursor: pointer;
+  transform: rotate(90deg);
 }
 @media screen and (min-width: 500px) {
   body .container {
@@ -58,10 +59,11 @@ body .container .dice:hover {
   }
 }
 body footer {
+  font-size: 0.8rem;
   margin: 15rem 0;
-  color: hsl(193deg, 38%, 86%);
+  color: hsl(193, 38%, 86%);
 }
 body footer a {
-  color: hsl(150deg, 100%, 66%);
+  color: hsl(150, 100%, 66%);
   text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
